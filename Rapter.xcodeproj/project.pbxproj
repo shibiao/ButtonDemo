@@ -14,6 +14,7 @@
 		915BB7481E02976A00074A4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915BB7461E02976A00074A4A /* LaunchScreen.storyboard */; };
 		915BB7531E02976A00074A4A /* RapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BB7521E02976A00074A4A /* RapterTests.swift */; };
 		915BB75E1E02976A00074A4A /* RapterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BB75D1E02976A00074A4A /* RapterUITests.swift */; };
+		915BB7721E02A1BE00074A4A /* DesignableButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BB7711E02A1BE00074A4A /* DesignableButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		915BB7591E02976A00074A4A /* RapterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		915BB75D1E02976A00074A4A /* RapterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapterUITests.swift; sourceTree = "<group>"; };
 		915BB75F1E02976A00074A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		915BB7711E02A1BE00074A4A /* DesignableButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				915BB73D1E02976A00074A4A /* AppDelegate.swift */,
 				915BB73F1E02976A00074A4A /* ViewController.swift */,
+				915BB7711E02A1BE00074A4A /* DesignableButtonView.swift */,
 				915BB7411E02976A00074A4A /* Main.storyboard */,
 				915BB7441E02976A00074A4A /* Assets.xcassets */,
 				915BB7461E02976A00074A4A /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				915BB7401E02976A00074A4A /* ViewController.swift in Sources */,
 				915BB73E1E02976A00074A4A /* AppDelegate.swift in Sources */,
+				915BB7721E02A1BE00074A4A /* DesignableButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
